@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 160
+per-file-ignores =
+    kaner/context.py: F401
