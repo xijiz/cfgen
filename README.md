@@ -1,4 +1,4 @@
-Implementation of the paper "[Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition](./docs/cfgen.pdf)".
+Implementation of the [EMNLP 2020](https://2020.emnlp.org/papers/main) paper "[Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition](./docs/cfgen.pdf)".
 
 # **C**ounter**F**actual **GEN**erator (`cfgen`)
 ## Introduction
