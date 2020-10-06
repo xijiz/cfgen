@@ -1,4 +1,4 @@
-Implementation of the paper "[Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition](#)".
+Implementation of the paper "[Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition](./docs/cfgen.pdf)".
 
 # **C**ounter**F**actual **GEN**erator (`cfgen`)
 ## Introduction
