@@ -5,7 +5,7 @@
 """Evaluation Metrics"""
 
 from typing import List, Dict, Any
-from sklearn.metrics import f1_score, precision_score, recall_score
+from sklearn.metrics import recision_recall_fscore_support
 from .common import to_entities
 
 
@@ -47,10 +47,11 @@ def evalner(batch_gold_labels: List[List[str]], batch_pred_labels: List[List[str
     for i, _ in enumerate(batch_gold_labels):
         gold_labels.extend(batch_gold_labels[i])
         pred_labels.extend(batch_pred_labels[i])
+    p, r, f1, _ = recision_recall_fscore_support(gold_labels, pred_labels, average='micro', warn_for=tuple())
     scores["token"] = {
-        "p": precision_score(gold_labels, pred_labels, average='micro'),
-        "r": recall_score(gold_labels, pred_labels, average='micro'),
-        "f1": f1_score(gold_labels, pred_labels, average='micro')
+        "p": p,
+        "r": r,
+        "f1": f1
     }
 
     return scores
