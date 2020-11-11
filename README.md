@@ -1,4 +1,4 @@
-Implementation of the [EMNLP 2020](https://2020.emnlp.org/papers/main) paper "[Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition](./docs/cfgen.pdf)".
+Implementation of the [EMNLP 2020](https://2020.emnlp.org/papers/main) paper "[Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition](https://www.aclweb.org/anthology/2020.emnlp-main.590/)".
 
 # **C**ounter**F**actual **GEN**erator (`cfgen`)
 ## Introduction
@@ -36,11 +36,19 @@ It is important to know that we do not provide the link or data of the dataset `
 
 ## Citation
 ```plain
-@inproceedings{zeng-etal-2020-cfgen,
+@inproceedings{zeng-etal-2020-counterfactual,
     title = "Counterfactual Generator: A Weakly-Supervised Method for Named Entity Recognition",
-    author = "Xiangji Zeng and Yunliang Li and Yuchen Zhai and Yin Zhang",
-    year = "2020"
-    publisher = "Association for Computational Linguistics"
+    author = "Zeng, Xiangji  and
+      Li, Yunliang  and
+      Zhai, Yuchen  and
+      Zhang, Yin",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.590",
+    pages = "7270--7280",
 }
 ```
 
@@ -48,4 +56,4 @@ It is important to know that we do not provide the link or data of the dataset `
 CFGen is CC-BY-NC 4.0.
 
 ## Contact
-If you have any questions, please contact Xiangji Zeng <zengxiangji@zju.edu.cn> or create a Github issue.
+If you have any questions, please contact me <zengxiangji@zju.edu.cn> or create a Github issue.
