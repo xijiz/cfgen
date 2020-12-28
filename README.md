@@ -25,13 +25,13 @@ It is important to know that we do not provide the link or data of the dataset `
 - Train a model on a given dataset
 
     ```bash
-    python app.py train --gpu "[0, 1]" --model "bilstm" --dataset "cluener" --seed 100
+    python app.py train --gpu "[0]" --model "bilstm" --dataset "cluener" --seed 100
     ```
 
 - Training with all settings
 
     ```bash
-    python app.py trainall --gpu "[0, 1]" --models "['bilstm', 'bert']" --datasets "['cluener', 'cner']"
+    python app.py trainall --gpu "[0]" --models "['bilstm', 'bert']" --datasets "['cluener', 'cner']"
     ```
 
 ## Citation

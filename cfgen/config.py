@@ -41,7 +41,7 @@ class TrainerConfig:
             learning_rate: float,
             batch_size: int,
             epoch: int,
-            stop_if_no_improvement: int = 10,
+            stop_if_no_improvement: int = 15,
             early_stop_loss: float = 0.01,
             identity: str = None
     ):

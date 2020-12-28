@@ -46,7 +46,7 @@ class CommandLineTool:
             datasets: List[str] = ["cluener", "cner"],
             seeds: List[int] = [100, 200, 300, 400, 500, -1],
             gpu: List[int] = [],
-            batch_size: int = 32,
+            batch_size: int = 8,
             epoch: int = 128,
             data_folder: str = "./tmp/"
     ):
@@ -66,7 +66,7 @@ class CommandLineTool:
         trainall(models, datasets, seeds, gpu, batch_size, epoch, data_folder)
 
     @staticmethod
-    def train(model: str, dataset: str, seed: int, gpu: List[int], batch_size: int = 32, epoch: int = 128, data_folder: str = "./tmp/"):
+    def train(model: str, dataset: str, seed: int, gpu: List[int], batch_size: int = 8, epoch: int = 128, data_folder: str = "./tmp/"):
         """
         Train a model on a dataset with a given seed.
 

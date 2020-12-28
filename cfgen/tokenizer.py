@@ -214,8 +214,8 @@ class BERTTokenizer(BaseTokenizer):
 
     def _preprocess(self):
         """Preprocess tokens, embeddings, and configurations."""
-        # we only take two layers of BERT model.
-        n_layers = 2
+        # we only take six layers of BERT model.
+        n_layers = 6
         raw_folder = os.path.join(self._folder, "raw")
         # pretrained weights
         layer_names = tuple(["encoder.layer.{0}.".format(i) for i in range(n_layers)])
